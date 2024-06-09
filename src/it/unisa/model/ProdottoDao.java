@@ -156,6 +156,7 @@ public class ProdottoDao implements ProdottoDaoInterfaccia{
 
 	    if (order != null && !order.equals("")) {
 	        selectSQL += " ORDER BY ?";
+	        
 	    }
 
 	    try {
